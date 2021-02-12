@@ -38,10 +38,10 @@ class AFHttp {
     
     // MARK : - AFHttp Apis
     static let API_EMPLOYEE_LIST = "api/v1/employees"
-    static let API_EMPLOYEE_SINGLE = "api/v1/employee/1" //id
+    static let API_EMPLOYEE_SINGLE = "api/v1/employee/" //id
     static let API_EMPLOYEE_CREATE = "api/v1/create"
-    static let API_EMPLOYEE_UPDATE = "api/v1/update/21" //id
-    static let API_EMPLOYEE_DELETE = "api/v1/delete/2" //id
+    static let API_EMPLOYEE_UPDATE = "api/v1/update/" //id
+    static let API_EMPLOYEE_DELETE = "api/v1/delete/" //id
 
     // MARK : - AFHttp Params
     class func paramsEmpty() -> Parameters {
